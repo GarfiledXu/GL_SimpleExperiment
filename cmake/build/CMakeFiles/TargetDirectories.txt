@@ -1,0 +1,4 @@
+D:/CODE_SAPCE_WIN/vs/repos/GL_Test/Item/GL_TEST2_CMAKEconfig/cmake/build/CMakeFiles/gl_cmake_test.dir
+D:/CODE_SAPCE_WIN/vs/repos/GL_Test/Item/GL_TEST2_CMAKEconfig/cmake/build/CMakeFiles/ALL_BUILD.dir
+D:/CODE_SAPCE_WIN/vs/repos/GL_Test/Item/GL_TEST2_CMAKEconfig/cmake/build/CMakeFiles/ZERO_CHECK.dir
+D:/CODE_SAPCE_WIN/vs/repos/GL_Test/Item/GL_TEST2_CMAKEconfig/cmake/build/m_gl/CMakeFiles/ALL_BUILD.dir
