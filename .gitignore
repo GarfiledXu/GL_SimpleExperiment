@@ -1,2 +1,2 @@
-out/*
-cmake/build/*
+*out/
+*cmake/build/
