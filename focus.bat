@@ -17,25 +17,33 @@ set out_dir=%project_root_dir%out
 @REM     move  /-Y %out_dir%\Release %out_dir%\bak
 @REM )
 
-if exist %out_dir%\Debug (
-    xcopy %out_dir%\Debug %out_dir%\bak\Debug /y /e
-    del /q/s %out_dir%\Debug
-    rd /q/s %out_dir%\Debug
+if not "%1"=="" if "%1"=="cr" (
+    if exist %out_dir%\Debug (
+        xcopy %out_dir%\Debug %out_dir%\bak\Debug /y /e
+        del /q/s %out_dir%\Debug
+        rd /q/s %out_dir%\Debug
+    )
+    if exist %out_dir%\Release (
+        xcopy %out_dir%\Release %o ut_dir%\bak\Release /y /e
+        del /q/s %out_dir%\Release
+        rd /q/s %out_dir%\Release
+    )
 )
-if exist %out_dir%\Release (
-    xcopy %out_dir%\Release %o ut_dir%\bak\Release /y /e
-    del /q/s %out_dir%\Release
-    rd /q/s %out_dir%\Release
-)
+
 @REM xcopy   %out_dir%\Debug %out_dir%\bak  /exclude:bak /y  /e /s /t
 
 
 pushd %cd%
 cd %cmake_dir%
-call build.bat
-popd
-@REM call .\cmake\build.bat
+if not "%1"=="" if "%1"=="r" (
+    echo %G_CO_BLACK_GREEN%standalone run exe%G_CO_CLEAR%
+    %out_dir%\Release\gl_cmake_test.exe
+) ^
+else if "%1"=="cr" (
+    call build.bat %1
+)
 
-set
+
+
 
 @echo on
