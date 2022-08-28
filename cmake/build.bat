@@ -1,7 +1,7 @@
 
 @echo off
 
-echo %G_CO_BLACK_YELLOW%enter build.bat%G_CO_CLEAR%
+echo %G_CO_BLACK_YELLOW%load build.bat%G_CO_CLEAR%
 setlocal
 set current_script_dir=%~dp0
 set current_script_name=%~nx0
@@ -37,9 +37,10 @@ cmake -B %cmake_build_dir% -S %current_script_dir% -G "Visual Studio 16 2019" -A
 cmake --build %cmake_build_dir%  --config Release 
 endlocal
 
-echo %G_CO_BLACK_YELLOW%end build.bat%G_CO_CLEAR%
+
 echo %G_CO_BLACK_GREEN%get procedure%G_CO_CLEAR%
 if not "%1"=="" if "%1"=="cr" (
     echo %G_CO_BLACK_GREEN%run procedure%G_CO_CLEAR%
     %out_dir%\Release\gl_cmake_test.exe
 )
+echo %G_CO_BLACK_YELLOW%end build.bat%G_CO_CLEAR%
