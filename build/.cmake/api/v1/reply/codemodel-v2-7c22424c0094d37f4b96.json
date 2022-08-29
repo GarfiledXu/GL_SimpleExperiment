@@ -1,0 +1,432 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/cmake/build/m_gl",
+					"jsonFile" : "directory-Debug-f7ce0a894390d6a4ff26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/m_gl",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gl_cmake_test",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "sub_gl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-198ba712b97024221ea2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a89bb2f16fe5813f5a21",
+					"jsonFile" : "target-ALL_BUILD-Debug-88462d52bd1801ec0251.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-50785fc6622c6aa882a2.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gl_cmake_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gl_cmake_test-Debug-4057f28311496ac36f87.json",
+					"name" : "gl_cmake_test",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/cmake/build/m_gl",
+					"jsonFile" : "directory-Release-f7ce0a894390d6a4ff26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/m_gl",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gl_cmake_test",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "sub_gl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-198ba712b97024221ea2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a89bb2f16fe5813f5a21",
+					"jsonFile" : "target-ALL_BUILD-Release-88462d52bd1801ec0251.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-50785fc6622c6aa882a2.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gl_cmake_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gl_cmake_test-Release-f08fa2ad8364f46dc106.json",
+					"name" : "gl_cmake_test",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/cmake/build/m_gl",
+					"jsonFile" : "directory-MinSizeRel-f7ce0a894390d6a4ff26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/m_gl",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gl_cmake_test",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "sub_gl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-198ba712b97024221ea2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a89bb2f16fe5813f5a21",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-88462d52bd1801ec0251.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-50785fc6622c6aa882a2.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gl_cmake_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gl_cmake_test-MinSizeRel-6e3c0dcab1273ea6151f.json",
+					"name" : "gl_cmake_test",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/cmake/build/m_gl",
+					"jsonFile" : "directory-RelWithDebInfo-f7ce0a894390d6a4ff26.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/m_gl",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "gl_cmake_test",
+					"targetIndexes" : 
+					[
+						0,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "sub_gl",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-198ba712b97024221ea2.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@a89bb2f16fe5813f5a21",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-88462d52bd1801ec0251.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-50785fc6622c6aa882a2.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gl_cmake_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gl_cmake_test-RelWithDebInfo-e645b66509fe04f72754.json",
+					"name" : "gl_cmake_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/build",
+		"source" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/cmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

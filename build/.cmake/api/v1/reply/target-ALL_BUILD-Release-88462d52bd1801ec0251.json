@@ -1,0 +1,33 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/m_gl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@a89bb2f16fe5813f5a21",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/cmake/build/m_gl",
+		"source" : "D:/VS2019/repos/GLFW_Test/GL_Test/GL_SimpleExperiment/m_gl"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

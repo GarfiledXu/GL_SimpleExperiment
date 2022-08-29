@@ -9,9 +9,9 @@ set(project_dir ${parent_cmake_dir}/..)
 set(EXECUTABLE_OUTPUT_PATH ${project_dir}/out)
 
 
-set(total_src_list "D:/CODE_SAPCE_WIN/vs/repos/GL_Test/Item/GL_TEST2_CMAKEconfig/src/main.cpp")
+set(total_src_list "${parent_cmake_dir}/../src/main.cpp")
 set(total_lib_list )
-set(total_inc_list "D:/CODE_SAPCE_WIN/vs/repos/GL_Test/Item/GL_TEST2_CMAKEconfig/inc")
+set(total_inc_list "${parent_cmake_dir}/../inc")
 
 
 
